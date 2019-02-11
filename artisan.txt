@@ -1,0 +1,13 @@
+php artisan tinker
+namespace App;
+
+//生成虚拟测试数据
+factory(User::class,5)->make();
+//生成数据
+factory(User::class,5)->create();
+
+
+
+
+php artisan cache:clear
+php artisan config:clear
