@@ -1,0 +1,1 @@
+* * * * * php /e/xampp/htdocs/laravel_blog/artisan schedule:run >> /dev/null 2>&1
