@@ -1,1 +1,6 @@
 * * * * * php /e/xampp/htdocs/laravel_blog/artisan schedule:run >> /dev/null 2>&1
+
+
+crontab cron.txt
+crontab -l
+crontab -r
